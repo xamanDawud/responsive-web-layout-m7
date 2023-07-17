@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        .container {
+            border: 1px solid saddlebrown;
+            display: grid;
+            /* grid-template-columns: repeat(3, 1fr); */
+            grid-template-columns: 200px auto 200px;
+            grid-template-rows: 200px auto repeat(5, 200px);
+            padding: 20px;
+            grid-gap: 25px;
+        }
+
+        .box {
+            border: 1px dotted darkgreen;
+            padding: 11px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <span class="box">box-1</span><span class="box">box-2</span><span class="box">box-3</span><span
+            class="box">box-4</span><span class="box">box-5</span><span class="box">box-6</span><span
+            class="box">box-7</span><span class="box">box-8</span><span class="box">box-9</span><span
+            class="box">box-10</span><span class="box">box-11</span><span class="box">box-12</span><span
+            class="box">box-13</span><span class="box">box-14</span><span class="box">box-15</span><span
+            class="box">box-16</span><span class="box">box-17</span><span class="box">box-18</span><span
+            class="box">box-19</span><span class="box">box-20</span>
+    </div>
+</body>
+
+</html>
